@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.top-class{
+    margin-bottom: 0;
+}
+
+.bottom-class{
+    padding: 0 0 10px 0;
+    margin-top: 0;
+}
+
+.header-landing-div{
+    height: 90vh;
+    width: 98.93vw;
+    overflow-x: hidden;
+    background: url('./assets/Banner.svg') no-repeat center center/cover;
+    padding: 10px;
+}
+
+
+.header-landing-div h1, .header-landing-div p{
+    text-shadow: 2px 2px #000;
+    padding: 1rem;
+}
+
+.header-landing-div p{
+    padding-bottom: 1rem;
+}
+
+.scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: 100vw;
+    margin: 0 auto; 
+    scrollbar-width: none;
+}
+
+.cards-wrapper {
+    display: flex;
+    width: 79vw;
+    z-index: 10;
+}
+
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 16px;
+    color: black;
+    height: fit-content;
+}
+
+.card-images{
+    height: 50vh;
+    width: 40vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

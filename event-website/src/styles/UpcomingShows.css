@@ -1,0 +1,39 @@
+.upcoming-div {
+    top: 138%;
+    left: 20%;
+    position: absolute;
+}
+
+.upcom-div-card{
+    width: 100%;
+}
+
+.upcom-card-header{
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 950px) {
+    .upcoming-div{
+    top: 160%;
+    left: 15%;
+    position: absolute;
+    max-width: 50rem;
+    border: 2px solid red;
+    }
+
+    .upcom-div-card{
+        width: 100%;
+    }
+
+    .upcom-card-header{
+        font-size: 0.89rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .upcoming-div{
+        left: 1%;
+        width: 19rem;
+    }
+    
+}
